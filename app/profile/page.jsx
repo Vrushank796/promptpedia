@@ -5,7 +5,6 @@ import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 
 import Profile from "@components/Profile";
-import { filter } from "lodash";
 
 const MyProfile = () => {
   const { data: session } = useSession();
